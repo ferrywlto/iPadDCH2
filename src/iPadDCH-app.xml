@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.5">
+	<id>com.grandtech.test</id>
+	<supportedProfiles>desktop mobileDevice</supportedProfiles>
+	<filename>iPadDCH</filename>
+	<name>iPadDCH</name>
+	<versionNumber>0.0.0</versionNumber>
+	<version>0.0.0</version>
+	<initialWindow>
+		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
+		<width>1024</width>
+		<height>768</height>
+		<title>iPadDCH</title>
+		<visible>true</visible>
+		<renderMode>gpu</renderMode>
+   	 	<fullScreen>true</fullScreen>
+    	<autoOrients>true</autoOrients>
+    	<transparent>false</transparent>
+    	<systemChrome>none</systemChrome>
+	</initialWindow>
+	  <iPhone>
+	    <InfoAdditions>
+	      <![CDATA[
+	        <key>UIDeviceFamily</key>
+	        <array>
+	          <string>1</string>
+	          <string>2</string>
+	        </array>
+	
+	        <key>UIPrerenderedIcon</key>
+	        <true/>
+	      ]]>
+	    </InfoAdditions>
+	  </iPhone>
+</application>
